@@ -8,7 +8,8 @@ deno run \
   --allow-net="\
 rpc.mevblocker.io,\
 rpc.gnosischain.com,\
-ethereum-sepolia.publicnode.com" \
+ethereum-sepolia.publicnode.com,\
+arbitrum-one-rpc.publicnode.com" \
   -- \
   "$base_path/replace-owners.ts" \
   "$@"

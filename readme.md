@@ -26,4 +26,4 @@ The resulting output can be found in `./out`.
 
 ## Limitations
 
-Supported networks: `mainnet`, `gnosischain`, `sepolia`.
+See `./src/networks.ts` for a full list of supported networks.

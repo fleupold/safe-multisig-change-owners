@@ -10,13 +10,13 @@ const owners = [
 export const safesToUpdate: SingleSafeConfig[] = [
   {
     safe: "0x01B94B667236a7896aC85D5bccdF23f26b10e6Cc",
-    network: "sepolia",
+    network: "Sepolia",
     newThreshold: 1,
     newOwners: owners,
   },
   {
     safe: "0xA03be496e67Ec29bC62F01a428683D7F9c204930",
-    network: "mainnet",
+    network: "Ethereum Mainnet",
     newThreshold: 1,
     newOwners: owners,
   },
