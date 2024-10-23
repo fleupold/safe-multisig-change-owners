@@ -3,7 +3,8 @@ export type SupportedNetworks =
   | "Ethereum Mainnet"
   | "Gnosis"
   | "Sepolia"
-  | "Arbitrum One";
+  | "Arbitrum One"
+  | "Base";
 
 export function getRpc(network: SupportedNetworks): string {
   switch (network) {
@@ -19,6 +20,9 @@ export function getRpc(network: SupportedNetworks): string {
     case "Arbitrum One":
       // https://chainlist.org/chain/42161
       return "https://arbitrum-one-rpc.publicnode.com";
+    case "Base":
+      // https://chainlist.org/chain/8453
+      return "https://base.llamarpc.com"
     default:
       throw new Error(`Invalid network ${network}`);
   }

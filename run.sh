@@ -19,7 +19,8 @@ deno run \
 rpc.mevblocker.io,\
 rpc.gnosischain.com,\
 ethereum-sepolia.publicnode.com,\
-arbitrum-one-rpc.publicnode.com" \
+arbitrum-one-rpc.publicnode.com,\
+base.llamarpc.com" \
   -- \
   "$base_path/replace-owners.ts" \
   "$@"
