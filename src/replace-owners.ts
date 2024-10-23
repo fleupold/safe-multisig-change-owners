@@ -2,11 +2,7 @@ import {
   assert,
   assertEquals,
 } from "https://deno.land/std@0.206.0/assert/mod.ts";
-import {
-  Contract,
-  ethers,
-  utils,
-} from "https://cdn.ethers.io/lib/ethers-5.7.esm.min.js";
+import { Contract, ethers, utils } from "npm:ethers@^5.7";
 
 import { safesToUpdate } from "../config.ts";
 import { getRpc } from "./networks.ts";
