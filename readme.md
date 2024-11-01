@@ -19,7 +19,7 @@ You can use the transaction builder on the Safe interface to simulate and execut
 Generate the transaction files with:
 
 ```sh
-bash run.sh
+./run.sh
 ```
 
 The resulting output can be found in `./out`.
