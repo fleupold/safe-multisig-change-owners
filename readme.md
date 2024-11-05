@@ -8,6 +8,9 @@ Build a transaction to optimally change the owners of a Safe Multisigs to match 
 
 ## Usage
 
+> [!TIP]
+> This repository can be run in a devcontainer directly from within github without the need for a local setup.
+
 The file `./config.ts` specifies all safes to consider, and, for each:
 - the network they live in,
 - the list of new owners, and
